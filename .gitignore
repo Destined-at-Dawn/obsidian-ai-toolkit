@@ -1,0 +1,44 @@
+# === 敏感文件 ===
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.secret
+
+# === AI 工作区（禁止上传） ===
+CLAUDE.md
+.claude/
+memory/
+outputs/
+skills/
+SOPs/
+*.log
+.cursor/
+
+# === 操作系统 ===
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+# === 编辑器 ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === Node / Python ===
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.venv/
+
+# === 构建产物 ===
+dist/
+build/
+*.egg-info/
